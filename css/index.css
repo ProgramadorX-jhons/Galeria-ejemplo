@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2? family= Arima:wght@700 & family= Mulish:wght@400;700 & family= Nunito:wght@400;800 & family= Playfair+Display:wght@900 & family= Roboto:ital,wght@0,100;0,400;0,500;1,300 & display=swap');
+
+/*inicio de encabezado*/
+ body {
+    font-family: 'Arima', cursiva;
+    background-image: url(https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px 30px;
+    padding: 20px;
+    
+  }
+  /*barra de navegaciones*/
+  .header{
+    background-color: #1b2029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 58px;
+    padding: 5px 10%;
+  }
+  .header.logo{
+    cursor: pointer;
+  }
+  .header .logo img{
+    height: 70px;
+    display: flex;
+    border-radius: 60px;
+  }
+  .header.logo img:hover{
+    transform: scale(1.1);
+  }
+  .header .nav-links{
+    list-style: none;
+  }
+  .header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .header .nav-links li:hover{
+    transform: scale(1.1);
+  }
+  .header .nav-links a{
+    font-size: 700;
+    color:#fff;
+    text-decoration: none;
+  }
+  .header .nav-links li a:hover{
+    color: #ffbc0e;
+  }
+  .header .btn button{
+    font-weight: 700;
+    color: #fff;
+    padding: 9px 25px;
+    background-color: eceff1;;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease os;
+  }
+  .header .btn button:hover{
+    background-color: #ffbc0e;
+  }
+  
+  h1{
+    color:white;
+    text-align: center;
+    padding: 10px;
+    font-size: 50pt;
+    font-family: Arial, Helvetica;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(48,7,16,1) 100%);
+    
+    
+    
+    /*la galeria*/
+  }
+  h1:hover{
+    opacity: 0.5;
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 3px solid #fff;
+    transition: border-color 0.5s;
+    cursor: pointer;
+  }
+  .gallery img:hover {
+    border-color: #4CAF50;
+    opacity: 0.75;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80%;
+  }
+  .modal-content video {
+    width: 100%;
+    height: auto;
+  }
+  .close {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    transition: color 0.5s;
+    cursor: pointer;
+  }
+  .close:hover {
+    color: #4CAF50;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+  }
+  /*esta es la parte del section detallado con videos y imagenes*/
+  section {
+    background-color:#757575;
+    color: #333;
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image img {
+    width: 400px;
+    height: auto;
+    padding: 18px;
+    
+
+  
+  }
+
+  /*esto es la parte del footer o final*/
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    color: #fff;
+    background-color: #555;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info i {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .video:hover{
+    opacity: o.50;
+    background-color: #4CAF50;
+  }
+  
+  

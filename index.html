@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <h1>Restaurante Mayte</h1>
+  <header class="header">
+  <div class="logo">
+    <img src="img/ALUGGDRPLNBMFCQ2TKKW3NR4GY.jpg" alt="logo de la marca">
+  </div>
+  <nav class="nav-links">
+    <li a href="#">Servicios</li>
+    <li a href="#">atentcion</li>
+    <li a href="#">menu</li>
+    <li a href="#">pago</li>
+  </nav>
+  <a href="#" class="btn"><button>contacto</button></a>
+</header>
+        <div class="container">
+          <div class="gallery">
+
+            <img src="img/comida-peruana-ceviche-de-los-pescados-117000217.jpg" alt="Imagen 1" onclick="openModal('video1.mp4')">
+            <img src="img/comidas-tipicas-de-peru-bistec-a-lo-pobre.jpg" alt="Imagen 2" onclick="openModal('video2.mp4')">
+            <img src="img/photo.jpg" alt="Imagen 3" onclick="openModal('video3.mp4')">
+            <img src="img/Receta-de-mostrito-de-chaufa-Comidas-Peruanas.jpg" alt="Imagen 4" onclick="openModal('video4.mp4')">
+            <img src="img/recetas-de-comidas-peruanas.jpg" alt="Imagen 5" onclick="openModal('video5.mp4')">
+            <img src="img/ALUGGDRPLNBMFCQ2TKKW3NR4GY.jpg"Imagen 6" onclick="openModal('video6.mp4')">
+          </div>
+          <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+              <video controls>
+                <source id="modal-video" src="" type="video/mp4">
+              </video>
+            </div>
+          </div>
+        </div>
+         
+        <section>
+          <div class="container">
+            <div class="image">
+              <img  src="img/comidas-tipicas-de-peru-bistec-a-lo-pobre.jpg" alt="Descripción de la imagen">
+            </div>
+            <div class="text">
+              <p>"Quiero agradecerles sinceramente por elegir nuestro restaurante para su cena. Espero que hayan disfrutado de su experiencia aquí" "Me siento muy agradecido de haber tenido la oportunidad de servirles hoy. Muchas gracias por venir a nuestro restaurante"."Fue un placer tenerles aquí. Gracias por confiar en nosotros para su cena. Esperamos tener el honor de recibirlos de nuevo en el futuro".</p>
+            </div>
+            <div class="video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/0rHh7_4god8" title="Video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </section>
+        
+  <footer>
+    <div class="container">
+      <div class="social-media">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+      <div class="contact-info">
+        <ul>
+          <li><i class="fa fa-map-marker"></i> Terminal Totora</li>
+          <li><i class="fa fa-phone"></i> +51 965382161</li>
+          <li><i class="fa fa-envelope"></i>Res-mayte@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+       
+</body>
+</html>
